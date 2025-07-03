@@ -52,8 +52,10 @@ while True:
                     max_edad = input("ingrese edad maxima")
                     break
                 except ValueError:
-                    print("debe ingresar un valor numerico")
-            jugar_por_rango(min_edad,max_edad)        
+                    #print("debe ingresar un valor numerico")
+                    print("nos vemos")
+            jugar_por_rango(min_edad,max_edad)    
+
         elif opc == 3:
             codigo = input("ingrese codigo del juego")
             try:
